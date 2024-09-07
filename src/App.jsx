@@ -1,14 +1,14 @@
- import Todos from "./Components/Todos.jsx";
+import Todos from "./Components/Todos.jsx";
 function App() {
+  //prettier
 
   return (
     <>
-    <div className="bg-gray-100">
+      <div className="bg-gray-100">
         <Todos />
-  </div>
-  </>
-
-  )
+      </div>
+    </>
+  );
 }
 
-export default App
+export default App;
